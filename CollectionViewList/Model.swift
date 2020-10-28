@@ -8,6 +8,11 @@
 import Foundation
 import UIKit
 
+struct HeaderItem: Hashable {
+    let title: String
+    let symbols: [SFSymbolItem]
+}
+
 
 struct SFSymbolItem: Hashable {
     let name: String

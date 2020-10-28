@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         SFSymbolItem(name: "bolt.fill")
     ]
     
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -116,6 +117,7 @@ class ViewController: UIViewController {
             return cell
         }
         
+        
         // Create a snapshot that define the current state of data source's data
         snapshot = NSDiffableDataSourceSnapshot<Section, SFSymbolItem>()
         snapshot.appendSections([.main])
@@ -126,6 +128,13 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func showExpandableList(_ sender: Any) {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "ExpandableListViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
 
 }
 

@@ -14,6 +14,7 @@
 		B1A97367253EC83600A20F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A97366253EC83600A20F93 /* Assets.xcassets */; };
 		B1A9736A253EC83600A20F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A97368253EC83600A20F93 /* LaunchScreen.storyboard */; };
 		B1A97373253ECB2F00A20F93 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A97372253ECB2F00A20F93 /* Model.swift */; };
+		B1DF4A23254930A70040DB22 /* ExpandableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF4A22254930A70040DB22 /* ExpandableListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B1A97369253EC83600A20F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1A9736B253EC83600A20F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1A97372253ECB2F00A20F93 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B1DF4A22254930A70040DB22 /* ExpandableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B1A9735D253EC83200A20F93 /* AppDelegate.swift */,
 				B1A9735F253EC83200A20F93 /* SceneDelegate.swift */,
 				B1A97361253EC83200A20F93 /* ViewController.swift */,
+				B1DF4A22254930A70040DB22 /* ExpandableListViewController.swift */,
 				B1A97372253ECB2F00A20F93 /* Model.swift */,
 				B1A97363253EC83200A20F93 /* Main.storyboard */,
 				B1A97366253EC83600A20F93 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A97362253EC83200A20F93 /* ViewController.swift in Sources */,
+				B1DF4A23254930A70040DB22 /* ExpandableListViewController.swift in Sources */,
 				B1A9735E253EC83200A20F93 /* AppDelegate.swift in Sources */,
 				B1A97360253EC83200A20F93 /* SceneDelegate.swift in Sources */,
 				B1A97373253ECB2F00A20F93 /* Model.swift in Sources */,
